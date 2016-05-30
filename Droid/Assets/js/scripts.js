@@ -83,7 +83,7 @@ var fluid = function() {
             ctx.arc(
                 mouse.x,
                 mouse.y,
-                radius * MOUSE_INFLUENCE,
+                (radius * MOUSE_INFLUENCE) / 3,
                 0,
                 Math.PI * 2
             );
@@ -95,7 +95,7 @@ var fluid = function() {
             ctx.arc(
                 mouse.x,
                 mouse.y,
-                (radius * MOUSE_INFLUENCE) / 3,
+                (radius * MOUSE_INFLUENCE) / 6,
                 0,
                 Math.PI * 2
             );
