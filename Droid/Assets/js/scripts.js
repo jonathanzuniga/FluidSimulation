@@ -1,4 +1,6 @@
 ﻿/*
+https://codepen.io/dissimulate/pen/hszvg
+
 Copyright (c) 2013 dissimulate at codepen
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
@@ -83,7 +85,7 @@ var fluid = function() {
             ctx.arc(
                 mouse.x,
                 mouse.y,
-                (radius * MOUSE_INFLUENCE) / 3,
+                (radius * MOUSE_INFLUENCE),
                 0,
                 Math.PI * 2
             );
@@ -95,7 +97,7 @@ var fluid = function() {
             ctx.arc(
                 mouse.x,
                 mouse.y,
-                (radius * MOUSE_INFLUENCE) / 6,
+                (radius * MOUSE_INFLUENCE) / 3,
                 0,
                 Math.PI * 2
             );
